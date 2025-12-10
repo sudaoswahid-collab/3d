@@ -1,12 +1,12 @@
-import { FlipWords } from "./FlipWords";
-import { motion } from "motion/react";
+import { FlipWords } from './FlipWords'
+import { motion } from 'motion/react'
 
 const HeroText = () => {
-  const words = ["Secure", "Modern", "Scalable"];
+  const words = ['Secure', 'Modern', 'Scalable']
   const variants = {
     hidden: { opacity: 0, x: -50 },
-    visible: { opacity: 1, x: 0 },
-  };
+    visible: { opacity: 1, x: 0 }
+  }
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
@@ -18,7 +18,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Ali
+          Hi I'm sudais wahidi
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
@@ -61,7 +61,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Ali
+          Hi,I'm sudais wahidi
         </motion.p>
         <div>
           <motion.p
@@ -96,7 +96,7 @@ const HeroText = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HeroText;
+export default HeroText
